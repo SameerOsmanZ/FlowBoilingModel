@@ -141,11 +141,11 @@ MASS_FLUX = 112                         # Mass flux G [kg/m²s]
 
 # --- Superheat Range ---
 SUPERHEAT_MIN = 1                       # Minimum wall superheat [°C]
-SUPERHEAT_MAX = 25                      # Maximum wall superheat [°C]
+SUPERHEAT_MAX = 20                      # Maximum wall superheat [°C]
 SUPERHEAT_STEP = 1                      # Superheat increment [°C]
 
 # --- Angular Positions ---
-THETA_POSITIONS = [15, 30, 45, 60, 75]  # Positions on heater [degrees]
+THETA_POSITIONS = [5, 10, 15]  # Positions on heater [degrees]
 
 # --- Surface Properties ---
 SURFACE_ROUGHNESS = 2.5e-6              # Surface roughness Ra [m]
